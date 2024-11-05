@@ -43,14 +43,3 @@ Fitness Buddy is a web application designed to help users achieve their fitness 
 - **Navigate**: Use the navigation bar to access different sections like GymMatch, Chat, and Workout Log.
 - **Edit Workout Log**: Add, edit, or delete workout entries to track your fitness journey.
 
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For questions or feedback, please contact [your-email@example.com](mailto:your-email@example.com).
