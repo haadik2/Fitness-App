@@ -1,0 +1,79 @@
+.workout-log-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+  }
+  
+  .workout-log-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #e0e0e0;
+  }
+  
+  .workout-log-entries {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .workout-entry {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .workout-entry:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  .workout-entry h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #ff6f61;
+  }
+  
+  .workout-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .add-workout {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .add-button, .delete-button {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 111, 97, 0.4);
+    margin-top: 10px;
+  }
+  
+  .add-button:hover, .delete-button:hover {
+    background-color: #ff3b2f;
+    transform: translateY(-2px);
+  }

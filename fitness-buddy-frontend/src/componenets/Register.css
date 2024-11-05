@@ -1,0 +1,69 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .register-form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    text-align: center;
+  }
+  
+  .register-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+  }
+  
+  .register-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+  }
+  
+  .register-button {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 111, 97, 0.4);
+  }
+  
+  .register-button:hover {
+    background-color: #ff3b2f;
+    transform: translateY(-2px);
+  }
+  
+  .register-login-link {
+    margin-top: 20px;
+    color: #b0b0b0;
+  }
+  
+  .register-login-link span {
+    color: #ff6f61;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .register-message {
+    margin-top: 20px;
+    color: #ff6f61;
+  }
