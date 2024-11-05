@@ -1,0 +1,9 @@
+Flask
+Flask-SocketIO
+Flask-Login
+Flask-JWT-Extended
+bcrypt
+python-dotenv
+pymongo  # If using MongoDB
+psycopg2-binary  # If using PostgreSQL
+Flask-CORS
